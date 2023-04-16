@@ -9,6 +9,7 @@ import { DEPLOY_NFT_POSITION_DESCRIPTOR_V1_3_0 } from './steps/deploy-nft-positi
 import { DEPLOY_NONFUNGIBLE_POSITION_MANAGER } from './steps/deploy-nonfungible-position-manager'
 import { DEPLOY_PROXY_ADMIN } from './steps/deploy-proxy-admin'
 import { DEPLOY_QUOTER_V2 } from './steps/deploy-quoter-v2'
+import { DEPLOY_QUOTER } from './steps/deploy-quoter'
 import { DEPLOY_TICK_LENS } from './steps/deploy-tick-lens'
 import { DEPLOY_TRANSPARENT_PROXY_DESCRIPTOR } from './steps/deploy-transparent-proxy-descriptor'
 import { DEPLOY_V3_CORE_FACTORY } from './steps/deploy-v3-core-factory'
@@ -33,6 +34,7 @@ const MIGRATION_STEPS: MigrationStep[] = [
   TRANSFER_V3_CORE_FACTORY_OWNER,
   DEPLOY_V3_STAKER,
   DEPLOY_QUOTER_V2,
+  DEPLOY_QUOTER,
   DEPLOY_V3_SWAP_ROUTER_02,
   TRANSFER_PROXY_ADMIN,
 ]
